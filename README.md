@@ -33,7 +33,15 @@ Install Larvel8-Adminlte@3.0.1
     
 ## Demo
 
-![4](https://user-images.githubusercontent.com/26022397/136954496-990e16fa-4c92-43d5-ab2a-14266b30ffcd.png)
+![welcome](https://user-images.githubusercontent.com/26022397/136955281-235a828a-4d6a-4b8d-be47-482b571f39a4.PNG)
+
+![login](https://user-images.githubusercontent.com/26022397/136955326-6d4164aa-fb1c-429f-b11e-99355a59ec18.PNG)
+
+![forgot-password](https://user-images.githubusercontent.com/26022397/136955365-4748ae99-9fd9-4444-9821-121033f1fffd.PNG)
+
+![register](https://user-images.githubusercontent.com/26022397/136955460-81950a7e-0c26-4e7d-a411-7696a761b87f.PNG)
+
+![dashboard](https://user-images.githubusercontent.com/26022397/136955497-68f9c066-3f2a-4910-99fd-01e5014905a0.PNG)
 
 ## License
 
