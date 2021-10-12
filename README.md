@@ -14,13 +14,14 @@ Install Larvel8-Adminlte@3.0.1 with npm
   cd project-folder
   git clone --project
 
-  create database
   composer install
+
+  create database
   cp .env.example .env
   php artisan key:generate
+  php artisan migrate
   
   npm install
-  
   npm run dev
 
 ```
