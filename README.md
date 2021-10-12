@@ -48,7 +48,7 @@ Register Page
 Dashboard Page
 ![dashboard](https://user-images.githubusercontent.com/26022397/136955497-68f9c066-3f2a-4910-99fd-01e5014905a0.PNG)
 
-Logout Page
+Logout
 ![logout](https://user-images.githubusercontent.com/26022397/136955780-590fdfb3-26d7-408b-98b5-168969120558.PNG)
 
 
