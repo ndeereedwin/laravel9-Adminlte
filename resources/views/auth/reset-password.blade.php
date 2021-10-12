@@ -11,6 +11,8 @@
             <form method="POST" action="{{ route('password.update') }}">
               @csrf
 
+              <input type="hidden" name="token" value="{{ $request->route('token') }}">
+
               <div class="input-group mb-3">
                 <input type="email" class="form-control" name="email" placeholder="Email" required autocomplete="Email">
                 <div class="input-group-append">
