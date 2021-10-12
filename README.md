@@ -7,7 +7,7 @@ Laravel 8 with Admin-lte@3.0.1 template
   
 ## Installation 
 
-Install Larvel8-Adminlte@3.0.1 with npm
+Install Larvel8-Adminlte@3.0.1
 
 ```bash 
   create project-folder
