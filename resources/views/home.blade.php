@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Home') }}
+        <h5 class="m-0">{{ __('Home') }}</h5>
     </x-slot>
 
     <x-slot name="breadcrumb">
