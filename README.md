@@ -1,6 +1,13 @@
 # laravel 8-Adminlte@3.0.1
 Laravel 8 with Admin-lte@3.0.1 template 
 
+The following tools are required in order to start the installation.
+
+- PHP >=8.0
+- composer
+- npm
+
+
 ## Features
 
 - Authenication
