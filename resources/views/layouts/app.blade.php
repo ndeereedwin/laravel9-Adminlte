@@ -62,5 +62,8 @@
         @include('layouts.footer')
     </div>
     <!-- ./wrapper -->
-
 </body>
+
+
+</html>
+

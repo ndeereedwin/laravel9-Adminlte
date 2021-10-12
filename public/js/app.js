@@ -16196,6 +16196,18 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var alpinejs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/module.esm.js");
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
@@ -16204,7 +16216,21 @@ alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].start(); // Import admin-lte-3
 
 __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.min.js");
 
-__webpack_require__(/*! admin-lte/plugins/jquery/jquery */ "./node_modules/admin-lte/plugins/jquery/jquery.js");
+__webpack_require__(/*! admin-lte/plugins/jquery/jquery */ "./node_modules/admin-lte/plugins/jquery/jquery.js"); // nav-item 
+
+
+var url = window.location;
+var allLinks = document.querySelectorAll('.nav-item a');
+
+var currentLink = _toConsumableArray(allLinks).filter(function (e) {
+  return e.href == url;
+});
+
+if (currentLink.length > 0) {
+  currentLink[0].classList.add("active");
+  currentLink[0].closest(".nav-treeview").style.display = "block";
+  currentLink[0].closest(".has-treeview").classList.add("active");
+}
 
 /***/ }),
 
