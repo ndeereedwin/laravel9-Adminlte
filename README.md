@@ -10,9 +10,7 @@ Laravel 8 with Admin-lte@3.0.1 template
 Install Larvel8-Adminlte@3.0.1
 
 ```bash 
-  create project-folder
-  cd project-folder
-  git clone --project
+  git clone https://github.com/ndeereedwin/laravel8-Adminlte.git
 
   composer install
 
