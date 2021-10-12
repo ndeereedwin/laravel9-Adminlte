@@ -42,6 +42,9 @@ Login Page
 Forgot Password
 ![forgot-password](https://user-images.githubusercontent.com/26022397/136955365-4748ae99-9fd9-4444-9821-121033f1fffd.PNG)
 
+Reset Password
+![password reset](https://user-images.githubusercontent.com/26022397/136971913-9671714f-26eb-490a-b18f-26e1254e5436.PNG)
+
 Register Page
 ![register](https://user-images.githubusercontent.com/26022397/136955460-81950a7e-0c26-4e7d-a411-7696a761b87f.PNG)
 
