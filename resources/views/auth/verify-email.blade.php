@@ -22,9 +22,9 @@
                     @csrf
 
                     <div>
-                        <x-button>
-                            {{ __('Resend Verification Email') }}
-                        </x-button>
+                       <button type="submit">
+                           {{ __('Resend Verification Email') }}
+                       </button>
                     </div>
                 </form>
 

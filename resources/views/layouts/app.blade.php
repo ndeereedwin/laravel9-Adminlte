@@ -21,11 +21,11 @@
     <div class="wrapper">
 
         <!-- Navbar -->
-        @include('layouts.navigation')
+        <x-nav-bar></x-nav-bar>
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        @include('layouts.aside')
+        <x-main-aside></x-main-aside>
 
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -37,8 +37,7 @@
                   </div><!-- /.col -->
                   <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item active">Starter Page</li>
+                      {{ $breadcrumb }}
                     </ol>
                   </div><!-- /.col -->
                 </div><!-- /.row -->
@@ -56,10 +55,10 @@
         </div>
         
         <!-- Control Sidebar -->
-        @include('layouts.sidebar')
+        <x-side-bar></x-side-bar>
 
         <!-- Main Footer -->
-        @include('layouts.footer')
+        <x-footer></x-footer>
     </div>
     <!-- ./wrapper -->
 </body>

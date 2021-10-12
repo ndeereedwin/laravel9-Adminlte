@@ -3,6 +3,10 @@
         {{ __('Dashboard') }}
     </x-slot>
 
+    <x-slot name="breadcrumb">
+        <li class="breadcrumb-item active">Dashboard</li>
+    </x-slot>
+
     <div class="row">
         <div class="col-md-12">
             <div class="card">

@@ -3,6 +3,11 @@
         {{ __('Home') }}
     </x-slot>
 
+    <x-slot name="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active">Home Page</li>
+    </x-slot>
+
     <div class="row">
         <div class="col-md-12">
             <div class="card">
