@@ -30,6 +30,16 @@ Install Larvel8-Adminlte@3.0.1
   npm run dev
 
 ```
+
+Incase of any issue with npm install && npm run dev
+
+```bash 
+   npm install --g laravel-mix
+
+   npm install --g webpack-cli
+
+   npm install --g webpack
+```   
     
 ## Demo
 
