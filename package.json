@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "admin-lte": "^3.1.0",
-        "vue": "^3.2.20"
+        "vue": "^3.2.20",
+        "vue-router": "^4.0.11"
     }
 }
