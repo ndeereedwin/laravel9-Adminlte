@@ -1,4 +1,4 @@
-# laravel 8-Adminlte@3.2.0
+# laravel 9 - Adminlte@3.2.0
 Laravel 8 with Admin-lte@3.2.0 template 
 
 The following tools are required in order to start the installation.
