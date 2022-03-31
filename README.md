@@ -1,5 +1,5 @@
-# laravel 8-Adminlte@3.0.1
-Laravel 8 with Admin-lte@3.0.1 template 
+# laravel 8-Adminlte@3.2.0
+Laravel 8 with Admin-lte@3.2.0 template 
 
 The following tools are required in order to start the installation.
 
@@ -14,10 +14,10 @@ The following tools are required in order to start the installation.
   
 ## Installation 
 
-Install Larvel8-Adminlte@3.0.1
+Install Larvel8-Adminlte@3.2.0
 
 ```bash 
-  git clone https://github.com/ndeereedwin/laravel8-Adminlte.git
+  git clone https://github.com/ndeereedwin/laravel9-Adminlte.git
 
   composer install
 
