@@ -18,6 +18,13 @@
         "resolve-url-loader": "^4.0.0",
         "sass": "^1.42.1",
         "sass-loader": "^12.1.0",
+<<<<<<< HEAD
+=======
+        "vue-loader": "^16.8.1",
+        "jquery-validation": ">=1.19.4",
+        "async": ">=2.6.4",
+        "moment": ">=2.29.4",
+>>>>>>> c84e7920960acf84bc28f6290329003e99738e1b
         "vite": "^2.9.12",
         "vue-loader": "^16.8.1",
         "webpack": "^5.73.0"
@@ -27,6 +34,7 @@
         "@vitejs/plugin-vue": "^2.3.3",
         "admin-lte": "^3.2.0",
         "async": ">=2.6.4",
+<<<<<<< HEAD
         "bootstrap-colorpicker": "^3.4.0",
         "bootstrap-switch": "^3.4.0",
         "jquery-validation": ">=1.19.5",
@@ -35,5 +43,9 @@
         "tempusdominus-bootstrap-4": "^5.19.3",
         "vue": "^3.2.20",
         "vue-router": "^4.0.11"
+=======
+        "moment": ">=2.29.4",
+        "@vitejs/plugin-vue": "^2.3.3"
+>>>>>>> c84e7920960acf84bc28f6290329003e99738e1b
     }
 }
