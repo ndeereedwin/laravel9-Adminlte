@@ -7,29 +7,33 @@
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
         "alpinejs": "^3.2.6",
+        "async": ">=2.6.4",
         "autoprefixer": "^10.1.0",
         "axios": "^0.21",
-        "bootstrap": "^4.6.0",
+        "bootstrap": "^4.6.1",
+        "laravel-vite-plugin": "^0.2.2",
         "lodash": "^4.17.19",
         "postcss": "^8.2.1",
         "postcss-import": "^12.0.1",
         "resolve-url-loader": "^4.0.0",
         "sass": "^1.42.1",
         "sass-loader": "^12.1.0",
-        "vue-loader": "^16.8.1",
-        "jquery-validation": ">=1.19.4",
-        "async": ">=2.6.4",
-        "moment": ">=2.29.2",
         "vite": "^2.9.12",
-        "laravel-vite-plugin": "^0.2.2"
+        "vue-loader": "^16.8.1",
+        "webpack": "^5.73.0"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@vitejs/plugin-vue": "^2.3.3",
         "admin-lte": "^3.2.0",
-        "vue": "^3.2.20",
-        "vue-router": "^4.0.11",
-        "jquery-validation": ">=1.19.4",
         "async": ">=2.6.4",
-        "moment": ">=2.29.2",
-        "@vitejs/plugin-vue": "^2.3.3"
+        "bootstrap-colorpicker": "^3.4.0",
+        "bootstrap-switch": "^3.4.0",
+        "jquery-validation": ">=1.19.5",
+        "moment": "^2.29.4",
+        "tempusdominus-core": "^5.19.3",
+        "tempusdominus-bootstrap-4": "^5.19.3",
+        "vue": "^3.2.20",
+        "vue-router": "^4.0.11"
     }
 }
